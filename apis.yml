@@ -1,0 +1,116 @@
+name: Microsoft Project APIs
+description: APIs for Microsoft Project, including Project for the web, Project Online, and Project Server
+image: https://www.microsoft.com/en-us/microsoft-365/project/project-management-software
+tags:
+- project management
+- scheduling
+- tasks
+- resources
+- collaboration
+- Microsoft 365
+created: '2024-01-15'
+modified: '2024-01-15'
+url: https://www.microsoft.com/en-us/microsoft-365/project
+specificationVersion: '0.18'
+apis:
+- name: Microsoft Project Online API
+  description: REST API for accessing and managing Project Online data, including projects, tasks, resources, and assignments
+  image: https://www.microsoft.com/en-us/microsoft-365/project/project-management-software
+  humanUrl: https://docs.microsoft.com/en-us/project/
+  baseUrl: https://{tenant}.sharepoint.com/sites/{sitename}/_api/ProjectServer
+  tags:
+  - REST
+  - Project Online
+  - SharePoint
+  - tasks
+  - resources
+  - projects
+  properties:
+  - type: Documentation
+    url: https://docs.microsoft.com/en-us/previous-versions/office/project-javascript-api/jj712612(v=office.15)
+  - type: OpenAPI
+    url: https://example.com/project-online-openapi.json
+  - type: Authentication
+    url: https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins
+  - type: SDKs
+    url: https://docs.microsoft.com/en-us/project/api/project-api-overview
+  - type: Terms of Service
+    url: https://www.microsoft.com/en-us/servicesagreement
+  - type: Pricing
+    url: https://www.microsoft.com/en-us/microsoft-365/project/compare-microsoft-project-management-software
+  contact:
+  - type: Support
+    url: https://support.microsoft.com/en-us/office/project
+- name: Microsoft Graph Project API
+  description: Microsoft Graph API for Project for the web, enabling access to projects, tasks, and bucket management
+  image: https://developer.microsoft.com/en-us/graph
+  humanUrl: https://developer.microsoft.com/en-us/graph
+  baseUrl: https://graph.microsoft.com/v1.0/
+  tags:
+  - Microsoft Graph
+  - Project for the web
+  - tasks
+  - planner
+  - collaboration
+  properties:
+  - type: Documentation
+    url: https://docs.microsoft.com/en-us/graph/api/resources/project-rome-overview
+  - type: OpenAPI
+    url: https://developer.microsoft.com/en-us/graph/docs/concepts/openapi
+  - type: Authentication
+    url: https://docs.microsoft.com/en-us/graph/auth/
+  - type: SDKs
+    url: https://docs.microsoft.com/en-us/graph/sdks/sdks-overview
+  - type: Changelog
+    url: https://developer.microsoft.com/en-us/graph/changelog
+  - type: Rate Limits
+    url: https://docs.microsoft.com/en-us/graph/throttling
+  - type: Terms of Service
+    url: https://www.microsoft.com/en-us/servicesagreement
+  - type: Privacy Policy
+    url: https://privacy.microsoft.com/en-us/privacystatement
+  contact:
+  - type: Support
+    url: https://developer.microsoft.com/en-us/graph/support
+  - type: Community
+    url: https://techcommunity.microsoft.com/t5/microsoft-365/ct-p/microsoft365
+- name: Microsoft Project Server CSOM API
+  description: Client-Side Object Model (CSOM) API for Project Server, providing programmatic access to Project Server data
+  image: https://www.microsoft.com/en-us/microsoft-365/project/project-management-software
+  humanUrl: https://docs.microsoft.com/en-us/project/
+  baseUrl: https://{server}/pwa/_api/ProjectServer
+  tags:
+  - CSOM
+  - Project Server
+  - on-premises
+  - .NET
+  - client library
+  properties:
+  - type: Documentation
+    url: https://docs.microsoft.com/en-us/previous-versions/office/project-server-2010/ee767622(v=office.14)
+  - type: Code Samples
+    url: https://docs.microsoft.com/en-us/project/api/project-api-code-samples
+  - type: Authentication
+    url: https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins
+  - type: SDKs
+    url: https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/
+  - type: Terms of Service
+    url: https://www.microsoft.com/en-us/servicesagreement
+  contact:
+  - type: Support
+    url: https://support.microsoft.com/en-us/office/project
+maintainers:
+- name: Microsoft Corporation
+  email: support@microsoft.com
+  url: https://www.microsoft.com
+common:
+- type: Developer Portal
+  url: https://developer.microsoft.com/
+- type: Blog
+  url: https://techcommunity.microsoft.com/t5/project-blog/bg-p/ProjectBlog
+- type: Status
+  url: https://status.microsoft.com/
+- type: Privacy Policy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- type: Terms of Service
+  url: https://www.microsoft.com/en-us/servicesagreement
