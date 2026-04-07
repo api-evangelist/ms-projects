@@ -6,12 +6,12 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - project management
-  - scheduling
-  - tasks
-  - resources
-  - collaboration
+  - Collaboration
   - Microsoft 365
+  - Project Management
+  - Resources
+  - Scheduling
+  - Tasks
 created: '2024-01-15'
 modified: '2026-03-16'
 url: https://www.microsoft.com/en-us/microsoft-365/project
@@ -21,38 +21,33 @@ apis:
     description: >-
       REST API for accessing and managing Project Online data, including projects,
       tasks, resources, and assignments.
-    image: 
-      https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://docs.microsoft.com/en-us/project/
     baseURL: https://graph.microsoft.com/v1.0/
     tags:
-      - REST
       - Project Online
+      - REST
       - SharePoint
-      - tasks
+      - Tasks
     properties:
       - type: Documentation
-        url: 
-          https://docs.microsoft.com/en-us/previous-versions/office/project-javascript-api/jj712612(v=office.15)
+        url: https://docs.microsoft.com/en-us/previous-versions/office/project-javascript-api/jj712612(v=office.15)
       - type: Authentication
-        url: 
-          https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins
+        url: https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins
   - name: Microsoft Graph Project API
     description: >-
       Microsoft Graph API for Project for the web, enabling access to projects, tasks,
       and bucket management.
-    image: 
-      https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://developer.microsoft.com/en-us/graph
     baseURL: https://graph.microsoft.com/v1.0/
     tags:
       - Microsoft Graph
-      - Project for the web
-      - tasks
+      - Project for the Web
+      - Tasks
     properties:
       - type: Documentation
-        url: 
-          https://docs.microsoft.com/en-us/graph/api/resources/project-rome-overview
+        url: https://docs.microsoft.com/en-us/graph/api/resources/project-rome-overview
       - type: Authentication
         url: https://docs.microsoft.com/en-us/graph/auth/
 common:
