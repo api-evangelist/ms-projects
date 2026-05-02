@@ -9,8 +9,8 @@ APIs for Microsoft Project, including Project for the web, Project Online, and P
 
 ## Timestamps
 
-- **Created:** 2024-01-15 
-- **Modified:** 2024-01-15 
+- **Created:** 2024-01-15
+- **Modified:** 2026-04-28
 
 ## APIs
 
@@ -27,7 +27,6 @@ REST API for accessing and managing Project Online data, including projects, tas
 #### Properties
 
 - [Documentation](https://docs.microsoft.com/en-us/previous-versions/office/project-javascript-api/jj712612(v=office.15))
-- [OpenAPI](https://example.com/project-online-openapi.json)
 - [Authentication](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins)
 - [SDKs](https://docs.microsoft.com/en-us/project/api/project-api-overview)
 - [Terms of Service](https://www.microsoft.com/en-us/servicesagreement)
@@ -46,7 +45,6 @@ Microsoft Graph API for Project for the web, enabling access to projects, tasks,
 #### Properties
 
 - [Documentation](https://docs.microsoft.com/en-us/graph/api/resources/project-rome-overview)
-- [OpenAPI](https://developer.microsoft.com/en-us/graph/docs/concepts/openapi)
 - [Authentication](https://docs.microsoft.com/en-us/graph/auth/)
 - [SDKs](https://docs.microsoft.com/en-us/graph/sdks/sdks-overview)
 - [Changelog](https://developer.microsoft.com/en-us/graph/changelog)
@@ -82,6 +80,6 @@ Client-Side Object Model (CSOM) API for Project Server, providing programmatic a
 
 ## Maintainers
 
-**FN:** Microsoft Corporation
+**FN:** Kin Lane
 
-**Email:** support@microsoft.com
+**Email:** kin@apievangelist.com
