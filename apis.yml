@@ -73,11 +73,11 @@ common:
     url: https://developer.microsoft.com/
   - type: Blog
     url: https://techcommunity.microsoft.com/t5/project-blog/bg-p/ProjectBlog
-  - type: Status
+  - type: StatusPage
     url: https://status.microsoft.com/
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://privacy.microsoft.com/en-us/privacystatement
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.microsoft.com/en-us/servicesagreement
   - type: Integrations
     url: https://www.microsoft.com/en-us/marketplace
