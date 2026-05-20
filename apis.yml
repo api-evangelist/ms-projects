@@ -69,6 +69,8 @@ apis:
       - type: SDKs
         url: https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/microsoft
   - type: Portal
     url: https://developer.microsoft.com/
   - type: Blog
