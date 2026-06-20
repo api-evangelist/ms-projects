@@ -4,7 +4,7 @@ description: >-
   APIs for Microsoft Project, including Project for the web, Project Online, and Project
   Server.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Collaboration
   - Microsoft 365
@@ -21,7 +21,7 @@ apis:
     description: >-
       REST API for accessing and managing Project Online data, including projects,
       tasks, resources, and assignments.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.microsoft.com/en-us/project/
     baseURL: https://graph.microsoft.com/v1.0/
     tags:
@@ -38,7 +38,7 @@ apis:
     description: >-
       Microsoft Graph API for Project for the web, enabling access to projects, tasks,
       and bucket management.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.microsoft.com/en-us/graph
     baseURL: https://graph.microsoft.com/v1.0/
     tags:
@@ -54,7 +54,7 @@ apis:
     description: >-
       Client-Side Object Model (CSOM) API for Project Server, providing
       programmatic access to Project Server data.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.microsoft.com/en-us/project/
     tags:
       - CSOM
