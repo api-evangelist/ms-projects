@@ -69,6 +69,10 @@ apis:
       - type: SDKs
         url: https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/ms-projects-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/ms-projects-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/microsoft
   - type: Portal
