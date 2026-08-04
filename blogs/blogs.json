@@ -2,13 +2,6 @@
   "repo": "ms-projects",
   "feeds": [
     {
-      "source": "https://techcommunity.microsoft.com/t5/project-blog/bg-p/ProjectBlog",
-      "feed_url": "https://techcommunity.microsoft.com/t5/project-blog/bg-p/ProjectBlog",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
       "source": "https://developer.microsoft.com/blog/feed/",
       "feed_url": "https://developer.microsoft.com/blog/feed/",
       "title": "",
@@ -23,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 15,
-  "fetched": "2026-07-11T11:50:51Z"
+  "post_count": 19,
+  "fetched": "2026-08-01T15:49:00Z"
 }
