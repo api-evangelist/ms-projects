@@ -27,7 +27,7 @@ tags:
 created: '2024-01-15'
 modified: '2026-04-28'
 url: https://www.microsoft.com/en-us/microsoft-365/project
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - name: Microsoft Project Online API
     description: >-
@@ -76,7 +76,7 @@ apis:
     properties:
       - type: Documentation
         url: https://docs.microsoft.com/en-us/previous-versions/office/project-server-2010/ee767622(v=office.14)
-      - type: Code Samples
+      - type: CodeExamples
         url: https://docs.microsoft.com/en-us/project/api/project-api-code-samples
       - type: SDKs
         url: https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/
