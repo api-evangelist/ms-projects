@@ -19,6 +19,13 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ms-projects.png
 tags:
   - Collaboration
+  - Microsoft-365
+  - Project Management
+  - Resources
+  - Scheduling
+  - Task
+tags_raw:
+  - Collaboration
   - Microsoft 365
   - Project Management
   - Resources
@@ -37,6 +44,11 @@ apis:
     humanURL: https://docs.microsoft.com/en-us/project/
     baseURL: https://graph.microsoft.com/v1.0/
     tags:
+      - Project-Online
+      - REST
+      - SharePoint
+      - Task
+    tags_raw:
       - Project Online
       - REST
       - SharePoint
@@ -54,6 +66,10 @@ apis:
     humanURL: https://developer.microsoft.com/en-us/graph
     baseURL: https://graph.microsoft.com/v1.0/
     tags:
+      - Microsoft Graph
+      - Project for the Web
+      - Task
+    tags_raw:
       - Microsoft Graph
       - Project for the Web
       - Tasks
