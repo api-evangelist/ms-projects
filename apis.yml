@@ -55,7 +55,7 @@ apis:
     humanURL: https://docs.microsoft.com/en-us/project/
     baseURL: https://graph.microsoft.com/v1.0/
     tags:
-      - Project-Online
+      - Project Online
       - REST
       - SharePoint
       - Task
